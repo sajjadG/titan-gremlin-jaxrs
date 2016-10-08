@@ -1,0 +1,61 @@
+# Editors temp files
+*~
+.swp
+
+### Development files
+
+#maven
+target
+nbaction*.xml
+nb-configuration.xml
+
+#gradle
+.gradle
+
+#idea
+.idea
+.pycharm_helpers
+*.iml
+
+#netbeans
+build/
+dist/
+nbproject/private/*
+
+#android studio
+gradle.properties
+local.properties
+build/
+app/build/
+
+#vs
+Debug/
+Release/
+*.sdf
+ipach
+
+### Byte-compiled / optimized / DLL files
+
+#python
+__pycache__/
+*.py[cod]
+*$py.class
+
+#Cpp
+*.gch
+*.inc
+
+### MISC
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+.pip
+
+# pyenv
+.python-version
+
+# dotenv
+.env
+
+_ignore_me

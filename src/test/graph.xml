@@ -1,0 +1,243 @@
+<?xml version="1.0" ?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+    <key id="study_province" for="node" attr.name="study_province" attr.type="string"></key>
+    <key id="lname" for="node" attr.name="lname" attr.type="string"></key>
+    <key id="labelV" for="node" attr.name="labelV" attr.type="string"></key>
+    <key id="st_id" for="node" attr.name="st_id" attr.type="int"></key>
+    <key id="avg" for="node" attr.name="avg" attr.type="double"></key>
+    <key id="living_province" for="node" attr.name="living_province" attr.type="string"></key>
+    <key id="name" for="node" attr.name="name" attr.type="string"></key>
+    <key id="born_city" for="node" attr.name="born_city" attr.type="string"></key>
+    <key id="born_province" for="node" attr.name="born_province" attr.type="string"></key>
+    <key id="living_city" for="node" attr.name="living_city" attr.type="string"></key>
+    <key id="study_city" for="node" attr.name="study_city" attr.type="string"></key>
+    <key id="age" for="node" attr.name="age" attr.type="int"></key>
+    <key id="labelE" for="edge" attr.name="labelE" attr.type="string"></key>
+    <graph id="G" edgedefault="directed">
+        <node id="8432">
+            <data key="labelV">student</data>
+            <data key="study_province">Qom</data>
+            <data key="lname">Gerami</data>
+            <data key="st_id">95111004</data>
+            <data key="avg">13.1</data>
+            <data key="living_province">Qom</data>
+            <data key="name">Saeed</data>
+            <data key="born_city">Lar</data>
+            <data key="born_province">Shiraz</data>
+            <data key="living_city">Qom</data>
+            <data key="study_city">Qom</data>
+            <data key="age">21</data>
+        </node>
+        <node id="4256">
+            <data key="labelV">student</data>
+            <data key="study_province">Kerman</data>
+            <data key="lname">Esmaeili</data>
+            <data key="st_id">95111003</data>
+            <data key="avg">12.1</data>
+            <data key="living_province">Tehran</data>
+            <data key="name">Saeed</data>
+            <data key="born_city">Tabriz</data>
+            <data key="born_province">West Azarbayejan</data>
+            <data key="living_city">Tehran</data>
+            <data key="study_city">Kerman</data>
+            <data key="age">20</data>
+        </node>
+        <node id="4136">
+            <data key="labelV">student</data>
+            <data key="study_province">Qom</data>
+            <data key="lname">Ghorbani</data>
+            <data key="st_id">95111006</data>
+            <data key="avg">15.1</data>
+            <data key="living_province">Qom</data>
+            <data key="name">Ahmad</data>
+            <data key="born_city">Isfahan</data>
+            <data key="born_province">Isfahan</data>
+            <data key="living_city">Qom</data>
+            <data key="study_city">Qom</data>
+            <data key="age">23</data>
+        </node>
+        <node id="12528">
+            <data key="labelV">student</data>
+            <data key="study_province">Qom</data>
+            <data key="lname">Gholami</data>
+            <data key="st_id">95111007</data>
+            <data key="avg">16.1</data>
+            <data key="living_province">Qom</data>
+            <data key="name">Ahmad</data>
+            <data key="born_city">Isfahan</data>
+            <data key="born_province">Isfahan</data>
+            <data key="living_city">Qom</data>
+            <data key="study_city">Qom</data>
+            <data key="age">24</data>
+        </node>
+        <node id="4296">
+            <data key="labelV">student</data>
+            <data key="study_province">Qom</data>
+            <data key="lname">Gholami</data>
+            <data key="st_id">95111005</data>
+            <data key="avg">14.1</data>
+            <data key="living_province">Qom</data>
+            <data key="name">Ali</data>
+            <data key="born_city">Rasht</data>
+            <data key="born_province">Mazandaran</data>
+            <data key="living_city">Qom</data>
+            <data key="study_city">Qom</data>
+            <data key="age">22</data>
+        </node>
+        <node id="4232">
+            <data key="labelV">student</data>
+            <data key="study_province">Qom</data>
+            <data key="lname">Rajabi</data>
+            <data key="st_id">95111001</data>
+            <data key="avg">10.1</data>
+            <data key="living_province">Qom</data>
+            <data key="name">Ali</data>
+            <data key="born_city">Shiraz</data>
+            <data key="born_province">Shiraz</data>
+            <data key="living_city">Qom</data>
+            <data key="study_city">Qom</data>
+            <data key="age">18</data>
+        </node>
+        <node id="4336">
+            <data key="labelV">student</data>
+            <data key="study_province">Mashhad</data>
+            <data key="lname">Morshedi</data>
+            <data key="st_id">95111002</data>
+            <data key="avg">11.1</data>
+            <data key="living_province">Tehran</data>
+            <data key="name">Mohammad</data>
+            <data key="born_city">Mashhad</data>
+            <data key="born_province">Mashhad</data>
+            <data key="living_city">Tehran</data>
+            <data key="study_city">city1</data>
+            <data key="age">19</data>
+        </node>
+        <edge id="jry-6i8-aad-36w" source="8432" target="4136">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="i72-6i8-aad-39k" source="8432" target="4232">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="izi-6i8-aad-3a8" source="8432" target="4256">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="jdq-6i8-aad-3bc" source="8432" target="4296">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="ila-6i8-aad-3cg" source="8432" target="4336">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="k66-6i8-aad-9o0" source="8432" target="12528">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="74k-3a8-aad-36w" source="4256" target="4136">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="5jo-3a8-aad-39k" source="4256" target="4232">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="6qc-3a8-aad-3bc" source="4256" target="4296">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="5xw-3a8-aad-3cg" source="4256" target="4336">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="6c4-3a8-aad-6i8" source="4256" target="8432">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="7is-3a8-aad-9o0" source="4256" target="12528">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="5j9-36w-aad-39k" source="4136" target="4232">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="6bp-36w-aad-3a8" source="4136" target="4256">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="745-36w-aad-3bc" source="4136" target="4296">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="5xh-36w-aad-3cg" source="4136" target="4336">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="6px-36w-aad-6i8" source="4136" target="8432">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="7id-36w-aad-9o0" source="4136" target="12528">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="mji-9o0-aad-36w" source="12528" target="4136">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="kke-9o0-aad-39k" source="12528" target="4232">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="lcu-9o0-aad-3a8" source="12528" target="4256">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="m5a-9o0-aad-3bc" source="12528" target="4296">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="kym-9o0-aad-3cg" source="12528" target="4336">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="lr2-9o0-aad-6i8" source="12528" target="8432">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="74p-3bc-aad-36w" source="4296" target="4136">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="5jt-3bc-aad-39k" source="4296" target="4232">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="6c9-3bc-aad-3a8" source="4296" target="4256">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="5y1-3bc-aad-3cg" source="4296" target="4336">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="6qh-3bc-aad-6i8" source="4296" target="8432">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="7ix-3bc-aad-9o0" source="4296" target="12528">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="74h-39k-aad-36w" source="4232" target="4136">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="5xt-39k-aad-3a8" source="4232" target="4256">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="6q9-39k-aad-3bc" source="4232" target="4296">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="5jl-39k-aad-3cg" source="4232" target="4336">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="6c1-39k-aad-6i8" source="4232" target="8432">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="7ip-39k-aad-9o0" source="4232" target="12528">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="hem-3cg-aad-36w" source="4336" target="4136">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="ftq-3cg-aad-39k" source="4336" target="4232">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="g7y-3cg-aad-3a8" source="4336" target="4256">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="h0e-3cg-aad-3bc" source="4336" target="4296">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="gm6-3cg-aad-6i8" source="4336" target="8432">
+            <data key="labelE">friend</data>
+        </edge>
+        <edge id="hsu-3cg-aad-9o0" source="4336" target="12528">
+            <data key="labelE">friend</data>
+        </edge>
+    </graph>
+</graphml>
